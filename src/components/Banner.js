@@ -1,5 +1,6 @@
 import { Button } from '@material-ui/core'
 import React, { useState } from 'react'
+import Search from './Search'
 
 const Banner = () => {
     const [showSearch, setShowSearch] = useState(false)
@@ -7,7 +8,7 @@ const Banner = () => {
     return (
         <div className="banner">
             <div className='banner__search'>
-                {/* {showSearch && <Search />} */}
+                {showSearch && <Search />}
 
                 <Button 
                     onClick={() => setShowSearch(!showSearch)}
