@@ -6,6 +6,11 @@
     cursor: pointer;
     transition: transform 100ms ease-in;
 
+    @media screen and (max-width: $bp-medium1) {
+        max-width: 350px;
+        margin: 0 auto;
+    }
+
     &:hover {
         transform: scale(1.07);
     }
