@@ -1,13 +1,20 @@
 import React from 'react'
 import Banner from '../components/Banner'
 import Card from '../components/Card'
+import NearBy from '../components/NearBy'
 
 const Home = () => {
     return (
         <div className="home">
             <Banner />
 
-            <div className="home__section">
+            <div className="home__nearby">
+                <h1>Explore Nearby</h1>
+                <NearBy />
+            </div>
+
+            <div className="home__anywhere">
+                <h1>Live anywhere</h1>
                 <Card
                     src="https://a0.muscache.com/im/pictures/eb9c7c6a-ee33-414a-b1ba-14e8860d59b3.jpg?im_w=720"
                     title="Online Experiences"

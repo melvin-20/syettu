@@ -6,3 +6,12 @@
         flex-direction: column;
     }
 }
+
+.home__nearby {
+    padding: 0 80px;
+    margin-top: 60px;
+    
+    > h1 {
+        padding-bottom: 16px;
+    }
+}
