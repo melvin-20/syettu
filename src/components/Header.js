@@ -17,8 +17,15 @@ const Header = () => {
             </Link>
 
             <div className="header__center">
-                <input type="text" />
-                <SearchIcon />
+                <input type="text" placeholder="Start Your Search" />
+                <SearchIcon style={{
+                    color: '#fff',
+                    backgroundColor: '#FF385C',
+                    padding: '8px',
+                    width: '35px',
+                    height: '35px',
+                    borderRadius: '50%'
+                }}/>
             </div>
 
             <div className="header__right">
