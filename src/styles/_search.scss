@@ -3,7 +3,12 @@
     top: 35px;
     left: 25%;
     width: 100vw;
-    z-index: 1000;
+    overflow-y: scroll;
+    z-index: 300;
+
+    @media screen and (max-width: $bp-medium1) {
+        left: 5%;
+    }
 
     > h2 {
         display: flex;
@@ -23,7 +28,7 @@
         position: absolute;
         left: 0;
         height: 30px;
-        top: 397px;
+        top: 395px;
         border: none;
 
         &:focus {
@@ -34,7 +39,7 @@
     > button {
         position: absolute;
         left: 0;
-        top: 436px;
+        top: 434px;
         text-transform: inherit !important;
         background-color: #ff7779;
         color: white;
