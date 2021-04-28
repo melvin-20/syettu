@@ -81,7 +81,7 @@ const SearchPage = () => {
                 total="£480 total"
             />
             <SearchResult
-                img="https://image.insider.com/585029a0dd0895bc548b4b8b?width=750&format=jpeg&auto=webp"
+                img="https://a0.muscache.com/im/pictures/e980ae68-bf09-407a-b36a-d9684ebab133.jpg?im_w=1200"
                 location="Private room in center of London"
                 title="5 Star Luxury Apartment"
                 description="3 guest · 1 bedroom · 1 bed · 1.5 shared bthrooms · Wifi · Kitchen · Free parking · Washing Machine"
