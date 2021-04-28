@@ -1,0 +1,95 @@
+.hostBanner {
+    border-radius: 16px;
+    overflow: hidden;
+    position: relative;
+    background-color: #222;
+
+    .hostBanner__img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        @media screen and (max-width: $bp-medium1) {
+            margin-top: 250px;
+            justify-content: flex-end;
+        }
+
+        img {
+            max-height: 100%;
+            // max-width: 100%;
+            object-fit: cover;
+            vertical-align: bottom;
+
+            @media screen and (max-width: $bp-medium1) {
+                min-width: 160%;
+            }
+        }
+    }
+
+    .hostBanner__info {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 10;
+        color: #fff;
+        padding-left: 80px;
+        padding-right: 80px;
+        width: 544px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+
+        @media screen and (max-width: $bp-large2) {
+            padding-left: 40px;
+            padding-right: 40px;
+            width: 350px;
+        }
+
+        @media screen and (max-width: $bp-medium1) {
+            padding: 32px 32px 0 32px;
+            width: 100%;
+            align-items:center;
+            text-align: center;
+            justify-content: flex-start;
+        }
+
+        @media screen and (max-width: $bp-small2) {
+            padding: 32px 15px 0 15px;
+        }
+
+        h1 {
+            font-size: 48px;
+            margin-bottom: 15px;
+
+            @media screen and (max-width: $bp-large2) {
+                font-size: 35px;
+            }
+
+            @media screen and (max-width: $bp-small2) {
+                font-size: 30px;
+            }
+        }
+
+        h3 {
+            margin-bottom: 25px;
+
+            @media screen and (max-width: $bp-small2) {
+                font-size: 16px;
+            }
+        }
+
+        > button {
+            background-color: #fff !important;
+            text-transform: inherit !important;
+            padding: 14px 24px;
+            font-size: 16px;
+            border-radius: 8px;
+
+            @media screen and (max-width: $bp-small2) {
+                padding: 10px 20px;
+            }
+        }
+    }
+}
